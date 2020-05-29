@@ -50,7 +50,7 @@ footer{padding:20px 0;background:#eaf7fa}.copyright{padding-top:20px}.copyright 
 .background-alt{background:#eaf7fa}
 #lead{overflow:hidden;height:100vh;max-height:1080px;background-color: #12223a}
 /*position:relative;height:100vh;min-height:500px;max-height:1080px;background:url(../images/lead-bg.jpg);background-size:cover;padding:15px;overflow:hidden} -- background*/
-#lead-content{position:absolute;z-index:10;top:50%;left:50%;transform:translate(-50%, -50%);text-align:center} 
+#lead-content{position:absolute;z-index:10;top:50%;left:50%;transform:translate(-50%, -50%);text-align:center}
 p.hello-name{margin:0;text-align:left}
 #lead-content h1,#lead-content h2{margin:0;text-align:left}
 #lead-content h1{color:#fff;font-weight:900;font-size:6em;line-height:0.9em;margin-bottom:10px}/*letter-spacing:0.05em;*/
@@ -88,11 +88,9 @@ p.hello-name{margin:0;text-align:left}
 #projects{padding:50px 15px;border-bottom:1px solid #5de3ec;text-align:center}
 #projects h2{color:#12223a;margin-bottom:50px}
 .project{position:relative;max-width:900px;margin:0 auto 30px auto;overflow:hidden;background:#fff;border-radius:4px}
-.project-image{float:left}
-.project-info{position:absolute;top:50%;transform:translateY(-50%);margin-left:300px;padding:15px}
+.project-info{padding:30px;height:175px;border:1px solid #5de3ec}
 .project-info h3{font-size:1.5em;font-weight:300;color:#12223a;margin:0 0 15px 0}
 .project-info p{color:#74808a;margin:0 0 15px 0;font-size:0.9em}
-.no-image .project-info{position:relative;margin:0;padding:30px 15px;transform:none}
 #more-projects{display:none}
 #skills{padding:50px 15px;border-bottom:1px solid #5de3ec;text-align:center}
 #skills h2{color:#12223a;margin-bottom:50px}
